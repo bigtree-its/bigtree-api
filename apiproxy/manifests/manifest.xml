@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AM-CompanyInfo" version="SHA-512:f89b3f0b187530815b37636b93303adf76a897042d396af59519a419e25676753ef4079f51c8738cc88c134120a3735f989212560a003b6e7ba7788f4d4c689e"/>
+        <VersionInfo resourceName="AM-Employees" version="SHA-512:04346dcb0962ccb33436e52ddf0e143a8122414215ca9c2d6428ab8fdea74205f6940915c1285ab0fe0b2ea69ad9010052d124ad943c41b9baa6c328e1f0901f"/>
+        <VersionInfo resourceName="AM-Status" version="SHA-512:c7c2c96d9b381d76ba33fedb7a74f94727752ce126f4306309f351e8ebcb870e66c7edac7579548443b448cd55b2dc032b1b358fa4c2eb540f8b2da1dc9d6de6"/>
+        <VersionInfo resourceName="JS-BuildAllEmployees" version="SHA-512:f3ad660a4339f5192b51bdab3a77c0f3c85395cd7314956b0cd8f4e95898e441cc53264a3aa4eefa83edbe7da5961aa008238a9ace0a21a1547463b2d3ef57d5"/>
+        <VersionInfo resourceName="JS-BuildCompanyInfo" version="SHA-512:03ea7a70e5c256675ba11fca9824113bc48ea86b09cc2733e2576a1630a3f4191176c124c558fdb0561119f9625f8c155b60ddfc9823f2a6d3db29105c7f6dc8"/>
+        <VersionInfo resourceName="KVM-LoadBusinessData" version="SHA-512:9542bc5a3b0c06062590089f3475d7a4aece1c3f6a8e761a5f9ef7af4c979fa01133c33f64aaa3d391def8929e44575ea08614344f1f4d5b5a3e0a6920c06213"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:5bab5cc4e86d88296af5e61277ceb444f52c0ddea72e1587d0e1b82fe0e0e346c691d46351bfef0aea0c3484d7fd8db978c6fe71b592bb08e7b2203ddd6e5dbc"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://build-company-info.js" version="SHA-512:8f3a9561e2302afa0c8661660db6dc3e6c2a10309f43d4763bea7939f5b0bfb4de42124d3e26e6ca01a6fccaa51b3b5df135332e110d9c1725e53c6ef077174a"/>
+        <VersionInfo resourceName="jsc://js-build-all-employees.js" version="SHA-512:79aceea4f21ba0e85e1739f00b725503bef9572a87a7d9ab416f64a1c9aed788a4313c741889feec28e52731fb6714ff3c94fbba2c7a19922e7d4281800221b1"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints/>
+</Manifest>

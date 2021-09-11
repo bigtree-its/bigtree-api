@@ -1,0 +1,27 @@
+{
+    "name": "bigtree-api",
+    "version": "1.0.0",
+    "description": "",
+    "dependencies": {
+        "apigeelint": "^2.9.0",
+        "bluebird": "^3.7.2",
+        "chai": "^4.3.4",
+        "chai-fuzzy": "^1.6.1",
+        "expect": "^27.1.1",
+        "expect.js": "^0.3.1",
+        "jsonfile": "^6.1.0",
+        "lodash": "^4.17.21",
+        "mocha": "^9.1.1",
+        "newman": "^5.3.0",
+        "nyc": "^15.1.0",
+        "prettyjson": "^1.2.1",
+        "sinon": "^11.1.2",
+        "tls-test": "0.0.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "apigeelint": "node_modules/.bin/apigeelint -s apiproxy -f table.js"
+    },
+    "author": "",
+    "license": "ISC"
+}

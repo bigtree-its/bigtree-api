@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KeyValueMapOperations async="false" continueOnError="false" enabled="true" name="KVM-LoadBusinessData" mapIdentifier="settings">
+    <DisplayName>KVM-LoadBusinessData</DisplayName>
+    <Properties/>
+    <ExclusiveCache>false</ExclusiveCache>
+    <ExpiryTimeInSecs>300</ExpiryTimeInSecs>
+    <Get assignTo="bigtree.data">
+        <Key>
+            <Parameter>bigtree.data</Parameter>
+        </Key>
+    </Get>
+    <Scope>environment</Scope>
+</KeyValueMapOperations>

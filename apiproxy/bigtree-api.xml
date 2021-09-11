@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="3" name="bigtree-api">
+    <Basepaths>/bigtree-api</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1631255070907</CreatedAt>
+    <CreatedBy>nava.arul@gmail.com</CreatedBy>
+    <Description>API for exposing endpoints to access business information about the Company</Description>
+    <DisplayName>bigtree-api</DisplayName>
+    <LastModifiedAt>1631255070907</LastModifiedAt>
+    <LastModifiedBy>nava.arul@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:d780b20dc4511e083b23960ecdc661af3099d5b9076dd29bb0871e0094c1e0cd007db87820c7c58f56188c8cc8ec577256e68dc85083ded605c56c1beb0f22c0:eu-west-1</ManifestVersion>
+    <Policies>
+        <Policy>AM-CompanyInfo</Policy>
+        <Policy>AM-Employees</Policy>
+        <Policy>AM-Status</Policy>
+        <Policy>JS-BuildAllEmployees</Policy>
+        <Policy>JS-BuildCompanyInfo</Policy>
+        <Policy>KVM-LoadBusinessData</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://build-company-info.js</Resource>
+        <Resource>jsc://js-build-all-employees.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>
