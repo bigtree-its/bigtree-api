@@ -10,7 +10,7 @@
 	<groupId>apigee</groupId>
 	<artifactId>bigtree-api</artifactId>
 	<version>1.0</version>
-	<name>bigtree-api</name>
+	<name>${deployment.suffix}bigtree-api</name>
 	<packaging>pom</packaging>
 	<properties>
         <proxy.basepath>/bigtree-api</proxy.basepath>

@@ -1,0 +1,18 @@
+{
+  "name": "bigtree-api-integration-test",
+  "version": "1.0.0",
+  "description": "Integration test for bigtree-api",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js features/*"
+  },
+  "keywords": [
+    "ApiCkli"
+  ],
+  "author": "Nava Krishnan",
+  "license": "ISC",
+  "dependencies": {
+    "apickli": "^3.0.0",
+    "cucumber": "^7.0.0-rc.0"
+  }
+}

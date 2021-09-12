@@ -1,3 +1,3 @@
 #!/bin/sh
 
-mvn clean install -Dorganisation=navaarul-eval -Denvironment=prod -Dusername=nava.arul@gmail.com -Dpassword=BehindW@@ds123
+mvn clean install -Dorganisation=$APIGEE_ORG -Denvironment=$APIGEE_ENV -Dusername=$APIGEE_USER -Dpassword=$APIGEE_PASSWORD
