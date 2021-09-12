@@ -35,7 +35,7 @@
         <apigee.username>${username}</apigee.username>
         <apigee.password>${password}</apigee.password>
         <deployment.suffix></deployment.suffix>
-        <feature.name></feature.name>
+        <feature.name>default</feature.name>
         <build.identifier>build-identification-info-goes-here</build.identifier>
     </properties>
     <!-- Since Maven 3.0.3, for two plugins bound to the same phase, the order 
@@ -59,7 +59,7 @@
                             <overwrite>true</overwrite>
                             <encoding>UTF-8</encoding>
                             <echo message="basedir parent : ${basedir}" />
-                            <outputDirectory>${basedir}/target/apiproxy</outputDirectory>
+                            <outputDirectory>${target.root.dir}/apiproxy</outputDirectory>
                             <resources>
                                 <resource>
                                     <directory>apiproxy</directory>
@@ -72,17 +72,17 @@
             <plugin>
                 <groupId>io.apigee.build-tools.enterprise4g</groupId>
                 <artifactId>apigee-edge-maven-plugin</artifactId>
-                <version>1.2.2</version>
+                <version>1.1.7</version>
                 <executions>
                     <execution>
-                        <id>configure-bundle</id>
+                        <id>configure-proxy</id>
                         <phase>package</phase>
                         <goals>
                             <goal>configure</goal>
                         </goals>
                     </execution>
                     <execution>
-                        <id>deploy-bundle</id>
+                        <id>deploy-proxy</id>
                         <phase>install</phase>
                         <goals>
                             <goal>deploy</goal>
